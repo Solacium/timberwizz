@@ -69,7 +69,7 @@
                     <!--#include virtual="includes/rightrow1.html" -->
                     </span>
                 </div>
-                <div id="rightRow2Text" class="mainBlockRow whitetext midtext shadowtext">
+                <div id="rightRow2Text" class="mainBlockRow whitetext enlargedtext shadowtext">
                     <span class="center-box">
                     <!--#include virtual="includes/rightrow2.html" -->
                     </span>
