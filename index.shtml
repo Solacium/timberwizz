@@ -66,7 +66,7 @@
                     <!--#include virtual="includes/leftrow3.html" -->
                     </span>
                 </div>
-                <div id="rightRow1Text" class="mainBlockRow whitetext midtext shadowtext">
+                <div id="rightRow1Text" class="mainBlockRow whitetext enlargedtext shadowtext">
                     <span class="center-box">
                     <!--#include virtual="includes/rightrow1.html" -->
                     </span>
@@ -76,7 +76,7 @@
                     <!--#include virtual="includes/rightrow2.html" -->
                     </span>
                 </div>
-                <div id="rightRow3Text" class="mainBlockRow whitetext midtext shadowtext">
+                <div id="rightRow3Text" class="mainBlockRow whitetext enlargedtext shadowtext">
                     <span class="center-box">
                     <!--#include virtual="includes/rightrow3.html" -->
                     </span>
