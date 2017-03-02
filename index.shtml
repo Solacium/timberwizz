@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<title>Timberwizz</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+
+		<meta name="keywords" 
+		content="Timberwizz">
+
+		<meta name="description" 
+		content="Timberwizz">
+
+		<link href="styles/reset.css" rel="stylesheet" type="text/css">
+		<link href="styles/styles.css" rel="stylesheet" type="text/css">
+
+        <script src="js/js.js"></script>
+		
+	</head>
+	
+	<body link="#FFFFFF" alink="#FFFFFF" vlink="#FFFFFF">
+        <section id="noterow">
+            <div id="note" class="whitetext midtext"><!--#include virtual="includes/note.html" --></div>
+        </section>
+		<div id="container">
+			<header id="header">
+				<div id="captionText" class="captionText">
+					<!--#include virtual="includes/caption.html" -->
+				</div>
+			</header>
+			<section id="toprow">
+                <div id="toprowshadow"></div>
+                <div id="priceCaption" class="dropdownParent whitetext menuCaptionText" data-target="price">
+                    цены
+                    <div class="dropdownChild bigtext" id="price">
+                        <div class="dropdownInner">
+                            <!--#include virtual="includes/dropdown_price.html" -->
+                        </div>
+                    </div>
+                </div>
+				<div id="contactsCaption" class="dropdownParent whitetext menuCaptionText" data-target="contacts">
+                    контакты
+                    <div class="dropdownChild bigtext" id="contacts">
+                        <div class="dropdownInner">
+                            <!--#include virtual="includes/dropdown_contacts.html" -->
+                        </div>
+                    </div>
+                </div>
+			</section>
+			<section id="mainblock">
+                <div id="leftRow1Text" class="mainBlockRow whitetext boldtext uppercasetext bigtext shadowtext">
+                    <span class="center-box">
+                    <!--#include virtual="includes/leftrow1.html" -->
+                    </span>
+                </div>
+                <div id="leftRow2Text" class="mainBlockRow whitetext boldtext uppercasetext bigtext shadowtext">
+                    <span class="center-box">
+                    <!--#include virtual="includes/leftrow2.html" -->
+                    </span>
+                </div>
+                <div id="leftRow3Text" class="mainBlockRow whitetext boldtext uppercasetext bigtext shadowtext">
+                    <span class="center-box">
+                    <!--#include virtual="includes/leftrow3.html" -->
+                    </span>
+                </div>
+                <div id="rightRow1Text" class="mainBlockRow whitetext midtext shadowtext">
+                    <span class="center-box">
+                    <!--#include virtual="includes/rightrow1.html" -->
+                    </span>
+                </div>
+                <div id="rightRow2Text" class="mainBlockRow whitetext midtext shadowtext">
+                    <span class="center-box">
+                    <!--#include virtual="includes/rightrow2.html" -->
+                    </span>
+                </div>
+                <div id="rightRow3Text" class="mainBlockRow whitetext midtext shadowtext">
+                    <span class="center-box">
+                    <!--#include virtual="includes/rightrow3.html" -->
+                    </span>
+                </div>
+			</section>
+			<section id="bottomrow">
+				&nbsp;
+			</section>
+			<footer id="footer">
+                <table id="bottomUpper"><tr><td class="leftCell">
+                    <div id="bottomTextUpper" class="footertext">
+                        <!--#include virtual="includes/bottom_text_upper.html" -->
+                    </div>
+                </td><td class="rightCell">
+                    <!--#include virtual="includes/bottom_table.html" -->
+                </td></tr></table>
+                <div id="bottomTextLower" class="footertext">
+                    <!--#include virtual="includes/bottom_text_lower.html" -->
+                </div>
+			</footer>
+            <section id="bottomspace">
+                &nbsp;
+            </section>
+		</div>
+	</body>
+	
+</html>

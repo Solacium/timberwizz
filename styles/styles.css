@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'Dejavu Serif';
+    src: url('./DejaVuSerif.ttf');
+}
+
+@font-face {
+    font-family: 'Estrangelo Edessa';
+    src: url('./estre.ttf');
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url('./../images/back.jpg');
+    font-family: 'Calibri';
+}
+
+#container {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#noterow {
+    width: 1440px;
+    min-height: 26px;
+    position: relative;
+}
+
+#note {
+    text-align: center;
+    padding: 5px 0 5px 0;
+    position: relative;
+    width: 1440px;
+}
+
+#header {
+    position: relative;
+    width: 1440px;
+    height: 150px;
+    background-image: url('./../images/top_1440.jpg');
+}
+
+#header > #captionText {
+    position: absolute;
+    top: 71px;
+    left: 0;
+    width: 1440px;
+    height: 90px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.captionText {
+    font-family: 'Dejavu Serif';
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.captionLink {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#toprow {
+    width: 1440px;
+    height: 20px;
+    position: absolute;
+}
+
+#toprowshadow {
+    width: 1440px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 50;
+}
+
+.dropdownParent {
+    position: absolute;
+    z-index: 60;
+}
+
+.dropdownChild {
+    position: absolute;
+    display: none;
+    top: 20px;
+    width: 1440px;
+    height: 383px;
+    background-image: url('./../images/back.jpg');
+}
+
+.dropdownInner {
+    margin: 40px;
+}
+
+#contactsCaption {
+    position: absolute;
+    left: 1300px;
+    height: 20px;
+}
+
+#contacts {
+    left: -1300px;
+}
+
+#priceCaption {
+    position: absolute;
+    left: 1240px;
+    height: 20px;
+}
+
+#price {
+    left: -1240px;
+}
+
+#mainblock {
+    position: relative;
+    width: 1440px;
+    height: 405px;
+    background-image: url('./../images/mid_1440.jpg');
+}
+
+#mainblock  > #leftRow1Text {
+    position: absolute;
+    top: 62px;
+    left: 30px;
+    width: 659px;
+}
+
+#mainblock > #leftRow2Text {
+    position: absolute;
+    top: 178px;
+    left: 30px;
+    width: 659px;
+}
+
+#mainblock > #leftRow3Text {
+    position: absolute;
+    top: 298px;
+    left: 30px;
+    width: 659px;
+}
+
+#mainblock > #rightRow1Text {
+    position: absolute;
+    top: 62px;
+    left: 720px;
+    width: 659px;
+    padding-left: 30px;
+}
+
+#mainblock > #rightRow2Text {
+    position: absolute;
+    top: 178px;
+    left: 720px;
+    width: 659px;
+    padding-left: 30px;
+}
+
+#mainblock > #rightRow3Text {
+    position: absolute;
+top: 298px;
+    left: 720px;
+    width: 659px;
+    padding-left: 30px;
+}
+
+#mainblock > .mainBlockRow {
+    height: 75px;
+    line-height: 75px;
+}
+
+.center-box {
+    display: inline-block;
+    vertical-align: top;
+    line-height: normal;
+}
+
+#bottomrow {
+    width: 1440px;
+    height: 2px;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 553px;
+}
+
+#bottomspace {
+    width: 1440px;
+    height: 24px;
+}
+
+.whitetext {
+    color: rgb(255,239,214)
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+.bigtext {
+    font-size: 19px;
+}
+
+.footertext {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.midtext {
+    font-size: 14px;
+}
+
+.table-header-text {
+    font-size: 13px;
+}
+
+.uppercasetext {
+    font-variant: small-caps;
+}
+
+.smalltext {
+    font-size: 12px;
+}
+
+.shadowtext {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.menuCaptionText {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#footer {
+    width: 1440px;
+    height: 100%;
+    background-image: url('../images/bottom_1440.jpg');
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+#footer > #bottomUpper {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#footer > #bottomUpper > tbody > tr > td {
+    width: 50%;
+    vertical-align: top;
+}
+
+#footer > #bottomUpper > tbody > tr > td.leftCell {
+    padding: 10px 10px 0 30px;
+}
+
+#footer #bottomTextUpper {
+    width: 100%;
+    position: relative;
+}
+
+#footer > #bottomTextLower {
+    position: relative;
+    margin: 0 30px;
+    width: 1380px;
+}
+
+table.bottom-table {
+    position: relative;
+    width: 100%;
+    border-style: hidden;
+    margin-left: 5px;
+}
+
+table.bottom-table > tbody > tr > td {
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+    vertical-align: middle;
+}
