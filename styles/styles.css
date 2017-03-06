@@ -85,6 +85,7 @@ body {
 .dropdownParent {
     position: absolute;
     z-index: 60;
+    font-weight: bold;
 }
 
 .dropdownChild {
@@ -94,6 +95,8 @@ body {
     width: 1440px;
     height: 383px;
     background-image: url('./../images/back.jpg');
+    font-weight: normal;
+    cursor: default;
 }
 
 .dropdownInner {
@@ -198,7 +201,11 @@ top: 298px;
 }
 
 .whitetext {
-    color: rgb(255,239,214)
+    color: rgb(255,239,214);
+}
+
+.otherwhitetext {
+    color: rgb(255,245,230);
 }
 
 .boldtext {

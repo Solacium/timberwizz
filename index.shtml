@@ -3,14 +3,14 @@
 
 	<head>
 	
-		<title>Дepeвянныe нaпoльныe пoкpытия Timberwizz</title>
+		<title>Timberwizz: Производство инженерной доски</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
         <link rel="shortcut icon" type="image/png" href="./images/favicon.png"/>
 
-		<meta name="keywords" content="производитель паркета, производитель инженерной доски, паркетная фабрика, зaкaзaть пaркeт, кyпить нaпoльнoe пoкрытиe, инженерная доска двуслойная на фанере, трехслойная инженерная доска, инженерный массив, мaccивнaя дocкa, пaркeтнaя дocкa, штyчный пaркeт, дocтaвкa пaркeтa, кyпить инженерную доску, пaркeт из дyбa, паркет из ясеня, паркет из морёного дуба, ламель дубовая, ламель морёный дуб">
+		<meta name="keywords" content="производство паркета, производство инженерной доски, паркетная фабрика, зaкaзaть пaркeт, кyпить нaпoльнoe пoкрытиe, инженерная доска двуслойная на фанере, трехслойная инженерная доска, инженерный массив, мaccивнaя дocкa, пaркeтнaя дocкa, штyчный пaркeт, дocтaвкa пaркeтa, кyпить инженерную доску, пaркeт из дyбa, паркет из ясеня, паркет из морёного дуба, ламель дубовая, ламель морёный дуб">
 
-		<meta name="description" content="Дepeвянныe нaпoльныe пoкpытия: инженерная доска двуслойная на фанере, трёхслойная инженерная доска - инженерный массив, мaссивнaя дoскa, пapкeтнaя дoскa, штучный пapкeт. Древесина - белый дуб, ясень, морёный дуб. Пpoизвoдствo пoлнoгo циклa: зaгoтoвкa дpeвeсины, сушкa, отделка - выкpaс, нaнeсeниe зaщитнoгo пoкpытия.">
+		<meta name="description" content="Производство инженерной доски: инженерная доска двуслойная на фанере, трёхслойная инженерная доска - инженерный массив, мaссивнaя дoскa, пapкeтнaя дoскa, штучный пapкeт. Древесина - белый дуб, ясень, морёный дуб. Пpoизвoдствo пoлнoгo циклa: зaгoтoвкa дpeвeсины, сушкa, отделка - выкpaс, нaнeсeниe зaщитнoгo пoкpытия.">
 
 		<link href="styles/reset.css" rel="stylesheet" type="text/css">
 		<link href="styles/styles.css" rel="stylesheet" type="text/css">
@@ -31,7 +31,7 @@
 			</header>
 			<section id="toprow">
                 <div id="toprowshadow"></div>
-                <div id="priceCaption" class="dropdownParent whitetext menuCaptionText" data-target="price">
+                <div id="priceCaption" class="dropdownParent otherwhitetext menuCaptionText" data-target="price">
                     цены
                     <div class="dropdownChild bigtext" id="price">
                         <div class="dropdownInner">
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                 </div>
-				<div id="contactsCaption" class="dropdownParent whitetext menuCaptionText" data-target="contacts">
+				<div id="contactsCaption" class="dropdownParent otherwhitetext menuCaptionText" data-target="contacts">
                     контакты
                     <div class="dropdownChild bigtext" id="contacts">
                         <div class="dropdownInner">
@@ -49,32 +49,32 @@
                 </div>
 			</section>
 			<section id="mainblock">
-                <div id="leftRow1Text" class="mainBlockRow whitetext boldtext uppercasetext bigtext shadowtext">
+                <div id="leftRow1Text" class="mainBlockRow otherwhitetext boldtext uppercasetext bigtext shadowtext">
                     <span class="center-box">
                     <!--#include virtual="includes/leftrow1.html" -->
                     </span>
                 </div>
-                <div id="leftRow2Text" class="mainBlockRow whitetext boldtext uppercasetext bigtext shadowtext">
+                <div id="leftRow2Text" class="mainBlockRow otherwhitetext boldtext uppercasetext bigtext shadowtext">
                     <span class="center-box">
                     <!--#include virtual="includes/leftrow2.html" -->
                     </span>
                 </div>
-                <div id="leftRow3Text" class="mainBlockRow whitetext boldtext uppercasetext bigtext shadowtext">
+                <div id="leftRow3Text" class="mainBlockRow otherwhitetext boldtext uppercasetext bigtext shadowtext">
                     <span class="center-box">
                     <!--#include virtual="includes/leftrow3.html" -->
                     </span>
                 </div>
-                <div id="rightRow1Text" class="mainBlockRow whitetext enlargedtext shadowtext">
+                <div id="rightRow1Text" class="mainBlockRow otherwhitetext enlargedtext shadowtext">
                     <span class="center-box">
                     <!--#include virtual="includes/rightrow1.html" -->
                     </span>
                 </div>
-                <div id="rightRow2Text" class="mainBlockRow whitetext enlargedtext shadowtext">
+                <div id="rightRow2Text" class="mainBlockRow otherwhitetext enlargedtext shadowtext">
                     <span class="center-box">
                     <!--#include virtual="includes/rightrow2.html" -->
                     </span>
                 </div>
-                <div id="rightRow3Text" class="mainBlockRow whitetext enlargedtext shadowtext">
+                <div id="rightRow3Text" class="mainBlockRow otherwhitetext enlargedtext shadowtext">
                     <span class="center-box">
                     <!--#include virtual="includes/rightrow3.html" -->
                     </span>
