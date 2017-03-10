@@ -133,6 +133,26 @@ body {
     left: -658px;
 }
 
+#galleryCaption {
+    position: absolute;
+    left: 458px;
+    height: 20px;
+}
+
+#gallery {
+    left: -458px;
+}
+
+#specsCaption {
+    position: absolute;
+    left: 258px;
+    height: 20px;
+}
+
+#specs {
+    left: -258px;
+}
+
 #mainblock {
     position: relative;
     width: 1440px;

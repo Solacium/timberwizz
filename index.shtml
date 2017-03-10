@@ -31,6 +31,22 @@
 			</header>
 			<section id="toprow">
                 <div id="toprowshadow"></div>
+                <div id="specsCaption" class="dropdownParent otherwhitetext menuCaptionText" data-target="specs">
+                    спецификации
+                    <div class="dropdownChild bigtext" id="specs">
+                        <div class="dropdownInner">
+                            <!--#include virtual="includes/dropdown_specs.html" -->
+                        </div>
+                    </div>
+                </div>
+                <div id="galleryCaption" class="dropdownParent otherwhitetext menuCaptionText" data-target="gallery">
+                    галерея
+                    <div class="dropdownChild bigtext" id="gallery">
+                        <div class="dropdownInner">
+                            <!--#include virtual="includes/dropdown_gallery.html" -->
+                        </div>
+                    </div>
+                </div>
                 <div id="stockCaption" class="dropdownParent otherwhitetext menuCaptionText" data-target="stock">
                     наличие на складе
                     <div class="dropdownChild bigtext" id="stock">
