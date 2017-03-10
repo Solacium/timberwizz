@@ -136,22 +136,22 @@ body {
 
 #galleryCaption {
     position: absolute;
-    left: 458px;
+    left: 398px;
     height: 20px;
 }
 
 #gallery {
-    left: -458px;
+    left: -398px;
 }
 
 #specsCaption {
     position: absolute;
-    left: 258px;
+    left: 71px;
     height: 20px;
 }
 
 #specs {
-    left: -258px;
+    left: -71px;
 }
 
 #mainblock {
