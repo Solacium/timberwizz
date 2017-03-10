@@ -27,6 +27,7 @@ body {
     width: 1440px;
     min-height: 26px;
     position: relative;
+    margin: 0 auto;
 }
 
 #note {
