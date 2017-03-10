@@ -105,22 +105,32 @@ body {
 
 #contactsCaption {
     position: absolute;
-    left: 1300px;
+    left: 1269px;
     height: 20px;
 }
 
 #contacts {
-    left: -1300px;
+    left: -1269px;
 }
 
 #priceCaption {
     position: absolute;
-    left: 1240px;
+    left: 1010px;
     height: 20px;
 }
 
 #price {
-    left: -1240px;
+    left: -1010px;
+}
+
+#stockCaption {
+    position: absolute;
+    left: 658px;
+    height: 20px;
+}
+
+#stock {
+    left: -658px;
 }
 
 #mainblock {

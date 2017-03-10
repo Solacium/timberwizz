@@ -31,6 +31,14 @@
 			</header>
 			<section id="toprow">
                 <div id="toprowshadow"></div>
+                <div id="stockCaption" class="dropdownParent otherwhitetext menuCaptionText" data-target="stock">
+                    наличие на складе
+                    <div class="dropdownChild bigtext" id="stock">
+                        <div class="dropdownInner">
+                            <!--#include virtual="includes/dropdown_stock.html" -->
+                        </div>
+                    </div>
+                </div>
                 <div id="priceCaption" class="dropdownParent otherwhitetext menuCaptionText" data-target="price">
                     цены
                     <div class="dropdownChild bigtext" id="price">
@@ -61,7 +69,7 @@
                 </div>
                 <div id="leftRow3Text" class="mainBlockRow otherwhitetext boldtext uppercasetext bigtext shadowtext">
                     <span class="center-box">
-                    <!--#include virtual="includes/leftrow3.html" -->
+                0    <!--#include virtual="includes/leftrow3.html" -->
                     </span>
                 </div>
                 <div id="rightRow1Text" class="mainBlockRow otherwhitetext enlargedtext shadowtext">
