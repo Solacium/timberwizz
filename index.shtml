@@ -85,7 +85,7 @@
                 </div>
                 <div id="leftRow3Text" class="mainBlockRow otherwhitetext boldtext uppercasetext bigtext shadowtext">
                     <span class="center-box">
-                0    <!--#include virtual="includes/leftrow3.html" -->
+                    <!--#include virtual="includes/leftrow3.html" -->
                     </span>
                 </div>
                 <div id="rightRow1Text" class="mainBlockRow otherwhitetext enlargedtext shadowtext">
