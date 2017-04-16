@@ -319,7 +319,6 @@ table.bottom-table {
     position: relative;
     width: 100%;
     border-style: hidden;
-    margin-left: 5px;
 }
 
 table.bottom-table > tbody > tr > td {
@@ -327,4 +326,8 @@ table.bottom-table > tbody > tr > td {
     padding: 4px;
     text-align: center;
     vertical-align: middle;
+}
+
+table.bottom-table .transparent-bg {
+    background-image: url('../images/transparent.png');
 }
